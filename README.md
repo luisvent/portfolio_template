@@ -4,12 +4,12 @@ This template is designed with a coding theme, for tech enthusiasts who want to 
 
 ### Preview
 
+[Live Demo](https://luisvent.com)
+
 ### Desktop
 <img src="public/images/p3.png" alt="drawing" width="400"/>
 <img src="public/images/p2.png" alt="drawing" width="400"/>
 <img src="public/images/p1.png" alt="drawing" width="400"/>
-
-[Live Demo](https://luisvent.com)
 
 ### Tech
 
