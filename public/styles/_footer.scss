@@ -1,0 +1,28 @@
+.footer {
+    margin: 80px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 0 100px;
+
+    .left {
+        display: flex;
+        column-gap: 20px;
+        align-items: center;
+
+        i {
+            color: $primary-color;
+            font-size: 1.7rem;
+        }
+    }
+
+    .center {
+        font-family: 'TN Light', monospace;
+        font-size: 1.2rem;
+
+        i{
+            font-size: 1.6rem;
+            vertical-align: bottom;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+@import 'variables';
+
+.hover-text {
+    transition: all 250ms;
+
+    &:hover {
+        cursor: pointer;
+        color: $neutral-color !important;
+        transition: all 250ms;
+        transform: scale(1.03);
+    }
+}
+
+.disappear-on-scroll {
+    animation: fadeout-animation linear;
+    animation-timeline: scroll();
+}
+
+@keyframes fadeout-animation {
+    0% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+

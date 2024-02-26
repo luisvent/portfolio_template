@@ -1,0 +1,53 @@
+@import 'variables';
+
+button {
+    padding: 8px 20px;
+    background-color: $neutral-color;
+    color: $background-color;
+    text-transform: uppercase;
+    font-family: 'TN', monospace;
+    letter-spacing: 2px;
+    border: none;
+    cursor: pointer;
+    transition: all 250ms;
+    box-shadow: 2px 2px 0px $primary-color;
+    border-radius: 2px;
+    width: fit-content;
+    margin: 10px 0;
+
+    i {
+        font-size: 1.7rem;
+        vertical-align: sub;
+    }
+
+    &:hover {
+        transform: scale(1.03);
+        box-shadow: 4px 4px 0px $primary-color;
+        transition: all 250ms;
+    }
+}
+
+.network-btn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    padding: 5px 25px;
+    border-radius: 2px;
+    font-size: 1.7rem;
+    transition: all 250ms;
+    background-color: #e4e8f6;
+
+    &.compact {
+        font-size: 1.2rem;
+        padding: 4px 10px;
+        column-gap: 8px;
+    }
+    
+    &:hover {
+        background-color: #dbdeeb;
+        transition: all 250ms;
+        transform: scale(1.1);
+    }
+}

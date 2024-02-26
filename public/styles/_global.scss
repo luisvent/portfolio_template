@@ -1,0 +1,51 @@
+@import "variables";
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: $background-color;
+  font-family: 'TN Light', monospace;
+  font-size: 80%;
+  color: $primary-color;
+  text-rendering: optimizeLegibility;
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: $background-color;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $primary-color;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: $neutral-color;
+  }
+
+
+  h1, h2, h3, h4 {
+    font-family: 'Agrandi', monospace;
+    color: $neutral-color;
+  }
+
+}
+
+a {
+  background-color: #8990b51c;
+  color: $neutral-color;
+  text-decoration: none;
+  transition: all 250ms;
+
+  &:hover {
+    background-color: #8990b562;
+    transition: all 250ms;
+  }
+}

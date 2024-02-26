@@ -1,0 +1,47 @@
+@import 'variables';
+
+.contact {
+
+    .form {
+        margin: 40px 0;
+        display: flex;
+        column-gap: 20px;
+        row-gap: 20px;
+        flex-direction: column;
+        
+        .form-group {
+            display: flex;
+            column-gap: 10px;
+            row-gap: 10px;
+            flex-direction: column;
+
+            .form-title{
+                font-size: 1.5rem;
+            }
+
+            .form-input{
+                input, textarea {
+                    padding: 10px;
+                    font-size: 1.5rem;
+                    width: 100%;
+                    border: none;
+                    box-shadow: 2px 2px 0px $primary-color;
+                    background-color: #9196b027;
+                    border-radius: 4px;
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+}
+
+.brief-contact {
+    .networks {
+        margin: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 30px;
+        // font-size: 4rem;
+    }
+}

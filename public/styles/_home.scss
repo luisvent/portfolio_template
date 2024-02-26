@@ -1,0 +1,71 @@
+@import 'variables';
+
+.home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+    // height: calc(100vh - 200px);
+    width: 100%;
+    animation: shrink-animation linear forwards;
+    animation-timeline: scroll();
+
+    .presentation {
+        margin: 20px 0px;
+
+        .salute {
+            font-size: 2rem;
+        }
+    
+        .name {
+            font-size: 5rem;
+            color: $neutral-color;
+            font-weight: bold;
+            margin: 20px 0px;
+            font-family: 'Agrandi', monospace;
+            width: fit-content;
+        }
+    
+        .intro {
+            font-size: 1.4rem;
+            font-family: 'TN Light', monospace;
+            line-height: 25px;
+        }
+    }
+
+    .tech {
+
+        .tech-icons {
+            margin: 20px 0px;
+            display: flex;
+            column-gap: 20px;
+            flex-wrap: wrap;
+            row-gap: 20px;
+
+            i {
+                font-size: 3.2rem;
+                transition: all 250ms;
+                
+                &:hover {
+                    transition: all 250ms;
+                    color: $neutral-color;
+                }
+            }
+
+            
+        }
+    }
+}
+
+
+@keyframes shrink-animation {
+    0% {
+        height: calc(100vh - 200px);
+    }
+    5% {
+        height: calc(100vh - 300px);
+    }
+    100% {
+        height: calc(100vh - 300px);
+    }
+}

@@ -1,0 +1,44 @@
+
+@font-face {
+    font-family: 'IBM';
+    src: url('../fonts/IBM\ Plex\ Sans\ Regular.woff2') format('woff2');
+  }
+
+@font-face {
+    font-family: 'TN';
+    src: url('../fonts/TN\ Regular.woff2') format('woff2');
+  }
+
+
+@font-face {
+    font-family: 'TN Medium';
+    src: url('../fonts/TN\ Medium.woff2') format('woff2');
+  } 
+
+@font-face {
+    font-family: 'TN Light';
+    src: url('../fonts/TN\ Light.woff2') format('woff2');
+  }
+
+@font-face {
+    font-family: 'Quattro';
+    src: url('../fonts/iA\ Writter\ Quattro\ S\ Regular.woff2') format('woff2');
+  }
+
+@font-face {
+    font-family: 'Agrandi';
+    src: url('../fonts/PP\ Agrandir\ Regular.woff2') format('woff2');
+  }
+
+@font-face {
+    font-family: 'Agrandi Bold';
+    src: url('../fonts/PP\ Agrandir\ Bold.woff2') format('woff2');
+  }
+
+
+$background-color: #EDF1FD;
+$neutral-color: #3E4455;
+$primary-color: #9196B0;
+$radius: 15px;
+
+$code-font: 'TN'

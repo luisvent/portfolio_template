@@ -1,0 +1,97 @@
+@import 'global';
+@import 'variables';
+@import 'code_bg';
+@import 'typewriter';
+@import 'navbar';
+@import 'content';
+@import 'footer';
+@import 'home';
+@import 'projects';
+@import 'contact';
+@import 'button';
+@import 'animation';
+@import 'experience'; 
+@import 'single_project'; 
+
+.hidden {
+    display: none;
+    opacity: 0;
+}
+
+.section-header {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    font-size: 2.5rem;
+    font-family: 'Agrandi', monospace;
+    color: $neutral-color;
+    width: 100%;
+    margin: 70px 0px 40px 0px;
+    padding: 10px 0px;
+    border-bottom: 1px solid #9196b03e;
+
+    i {
+        font-size: 3rem;
+    }
+}
+
+.mv-20 {
+    margin: 20px 0;
+}
+
+.mv-40 {
+    margin: 40px 0;
+}
+
+.separator {
+    height: 1px;
+    width: 100%;
+    margin: 50px 0px;
+    background-color: #9196b03e;
+}
+
+.page-content {
+    width: 100%;
+    height: inherit;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section:not(.no-scroll-animation) {
+    scale: 0.8;
+    opacity: 0.5;
+    padding: 20px 0px;
+    animation: fade-entry-animation linear forwards;
+    animation-timeline: view();
+    animation-range: entry 0px 60vh;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.scroll-sign {
+    transform: rotate(90deg);
+    position: fixed;
+    bottom: 170px;
+    right: 0px;
+    font-size: 1.1rem;
+    font-family: 'Agrandi Bold';
+    text-transform: uppercase;
+    color: $primary-color;
+    letter-spacing: 5px;
+
+    i {
+        font-size: 1.8rem;
+        vertical-align: sub;
+    }
+}
+
+@keyframes fade-entry-animation {
+    to {scale: 1; opacity: 1;}
+}
+
+@import 'responsive';

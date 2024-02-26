@@ -1,0 +1,34 @@
+@import "variables";
+
+.code-bg {
+  top: 0px;
+  position: fixed;
+  color: #e1e4ed8e;
+  text-align: justify;
+  font-size: 1.3rem;
+  font-family: $code-font, monospace;
+  height: 100%;
+    overflow: hidden;
+}
+
+.bg-effect-transparent {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  position: fixed;
+  background: linear-gradient(-45deg, $background-color, transparent, $background-color, $background-color, transparent, $background-color, transparent, $background-color);
+  background-size: 200% 200%;
+  animation: gradient 30s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

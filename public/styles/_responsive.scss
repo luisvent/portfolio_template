@@ -1,0 +1,141 @@
+@media only screen and (max-width: 600px) {
+
+    body, html {
+        font-size: 90%;
+    }
+
+    .section-header {
+        margin-top: 20px;
+    }
+
+    .experience-info {
+        flex-direction: column-reverse !important;
+        row-gap: 20px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .page-content, .home {
+        width: auto;
+    }
+
+    .home {
+        margin-top: 60px;
+        animation: none;
+
+        .presentation {
+            .name {
+                font-size: 10vw;
+            }
+        }
+    }
+
+    .content {
+        width: auto;
+        padding: 30px;
+    }
+
+    .brief-projects {
+        .projects-grid {
+            grid-template-columns: auto;
+            row-gap: 20px;
+
+            .brief-project {
+                flex-direction: column;
+                row-gap: 10px;
+                padding-bottom: 20px;
+                border-bottom: 2px solid rgba(128, 128, 128, 0.139);
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+    }
+
+    .scroll-sign {
+        display: none;
+    }
+
+    .footer {
+        margin-top: 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .networks {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+
+        .network-btn {
+            width: 60%;
+        }
+    }
+
+    .experience {
+        .role {
+            margin: 0px 0px 0px 70px;
+            padding: 35px 0px 35px 30px;
+        }
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+
+    .footer {
+        margin-top: 0px;
+    }
+
+    .page-content, .home {
+        width: 100%;
+    }
+
+    .content {
+        width: auto;
+        padding: 30px;
+    }
+
+    .brief-projects {
+        .projects-grid {
+            grid-template-columns: auto;
+        }
+    }
+
+    .scroll-sign {
+        display: none;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .example {background: blue;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .content {
+        width: 1000px;
+    }
+
+    .brief-projects {
+        .projects-grid {
+            grid-template-columns: auto auto;
+        }
+    }
+
+    .scroll-sign {
+        display: auto;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .example {background: pink;}
+  }
