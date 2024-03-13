@@ -7,9 +7,15 @@ This template is designed with a coding theme, for tech enthusiasts who want to 
 [Live Demo](https://luisvent.com)
 
 ### Desktop
-<img src="public/images/p3.png" alt="drawing" width="400"/>
-<img src="public/images/p2.png" alt="drawing" width="400"/>
-<img src="public/images/p1.png" alt="drawing" width="400"/>
+<p align="center">
+  <img src="public/images/portfolio1.png" alt="Sublime's custom image"/>
+</p>
+<p align="center">
+  <img src="public/images/portfolio2.png" alt="Sublime's custom image"/>
+</p>
+<p align="center">
+  <img src="public/images/portfolio3.png" alt="Sublime's custom image"/>
+</p>
 
 ### Tech
 
